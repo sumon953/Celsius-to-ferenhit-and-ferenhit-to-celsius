@@ -1,0 +1,18 @@
+echo " enter 1 for c to f || enter 2 for f to c"
+read i
+if(($i==1))
+then
+echo "enter c"
+read c
+x=`expr $c / 5`
+y=`expr $x \* 9`
+f=`expr $y + 32`
+echo " temprature in f= $f"
+else
+echo "read f"
+read f
+x=`expr $f - 32`
+y=`expr $s / 9`
+c=`expr $y \* 5`
+echo " value in c= $c"
+fi
